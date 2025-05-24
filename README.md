@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/food.png" height="200px"/>
+</p>
+<br /><br />
 # Signal – Canada Food Guide MVP
 
 This is a React + TypeScript project built as part of the **Signal** challenge. The goal is to provide a minimal, functional MVP for the Government of Canada’s Food Guide, focusing on delivering maximum signal about coding proficiency in limited time.
