@@ -1,58 +1,56 @@
-# React + TypeScript + Vite
+# Signal – Canada Food Guide MVP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + TypeScript project built as part of the **Signal** challenge. The goal is to provide a minimal, functional MVP for the Government of Canada’s Food Guide, focusing on delivering maximum signal about coding proficiency in limited time.
 
-Currently, two official plugins are available:
+## 🔗 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://signal.fwh.is/](https://signal.fwh.is/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- ✅ View a daily healthy menu for an individual
+- ✅ View a family menu with breakdown per member
+- ✅ Responsive, modern UI built with React Hooks and TypeScript
+- ✅ Clean architecture and folder structure
+- ✅ Routing with React Router
+- ✅ Easily extendable structure
+- ✅ Designed to load and process data from `/data/` on the frontend
+
+---
+
+## 📦 Tech Stack
+
+- **React 18**
+- **TypeScript**
+- **Vite** – for blazing-fast development
+- **React Router**
+- **CSS Modules / TailwindCSS (optional)**
+- **Jest + React Testing Library** (for unit tests)
+
+---
+
+## 🧠 User Stories
+
+- As a user, I want to see an optimal daily menu so that I can improve my health.
+- As a family, I want to see an optimal daily menu with a breakdown per member so that we can improve the health of the family.
+
+---
+### Install Dependencies
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### Run Test
+```bash
+npm run test
 ```
-# Signal
-# Signal
-# Signal
-# Signal
+
+### Run Project
+```bash
+npm run dev
+```
+
+
