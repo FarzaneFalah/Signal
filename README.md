@@ -22,11 +22,11 @@ This is a React + TypeScript project built as part of the **Signal** challenge. 
 
 ## 📦 Tech Stack
 
-- **React 18**
+- **React 19**
 - **TypeScript**
 - **Vite** – for blazing-fast development
 - **React Router**
-- **CSS Modules / TailwindCSS (optional)**
+- **React Bootstrap**
 - **Jest + React Testing Library** (for unit tests)
 
 ---
